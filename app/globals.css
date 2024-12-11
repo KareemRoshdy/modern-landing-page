@@ -78,13 +78,9 @@
     @apply font-heading;
   }
 }
-
 .gradient-text {
-  @apply bg-gradient-to-r 
-  from-[#6a11cb]
-  via-[#2575fc] 
-  to-[#12c2e9] text-transparent bg-clip-text;
-}
+  @apply bg-gradient-to-r from-[#6a11cb] via-[#2575fc] to-[#12c2e9] text-transparent bg-clip-text;
+  }
 
 .gradient-button {
   /* @apply bg-gradient-to-r from-[#2b5876] via-[#4e4376] to-[#d9a7c7]; */
