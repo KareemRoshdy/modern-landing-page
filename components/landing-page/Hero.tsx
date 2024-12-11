@@ -22,7 +22,15 @@ const Hero = () => {
           <AnimationContainer delay={0.3}>
             <p className="opacity-90 text-lg sm:text-xl md:text-2xl text-center mb-8 max-w-sm xl:max-w-xl mx-auto">
               Preview your thumbnails in a realistic environment. In{" "}
-              <span className="gradient-text bg-gradient-to-r from-[#6a11cb] via-[#2575fc] to-[#12c2e9] text-transparent bg-clip-text">3 easy steps</span>
+              <span style={{
+  color: 'transparent',
+  backgroundImage: 'linear-gradient(to right, #6a11cb, #2575fc, #12c2e9)',
+  backgroundClip: 'text',
+  WebkitBackgroundClip: 'text',
+  WebkitTextFillColor: 'transparent',
+}} className="gradient-text">
+  3 easy steps
+</span>
             </p>
           </AnimationContainer>
 
